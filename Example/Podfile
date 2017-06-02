@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'ZPopTipView_Example' do
+  pod 'ZPopTipView', :path => '../'
+
+end
