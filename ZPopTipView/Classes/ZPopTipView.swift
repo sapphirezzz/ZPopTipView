@@ -13,69 +13,69 @@ public protocol ZPopTipViewDelegate: class {
 }
 
 public enum ZPopTipViewPointDirection {
-    case any
-    case up
-    case down
+    case Any
+    case Up
+    case Down
 }
 
-open class ZPopTipView: UIButton {
+public class ZPopTipView: UIButton {
     
     static let padding: CGFloat = 10.0
     static let textInsets: UIEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10)
     static let pointHeight: CGFloat = 6
     static let viewTag: Int = 12321
     static let backgroundColor = UIColor(red: 0, green: 176.0 / 255, blue: 1.0, alpha: 1.0)
-    static let font: UIFont = UIFont.systemFont(ofSize: 14.0)
+    static let font: UIFont = UIFont.systemFontOfSize(14.0)
     
     var point: CGPoint?
-    var direction: ZPopTipViewPointDirection = .up
+    var direction: ZPopTipViewPointDirection = .Up
     weak var delegate: ZPopTipViewDelegate?
-
-    open class func remove(_ inView: UIView) {
+    
+    public class func remove(inView: UIView) {
         if let view = inView.viewWithTag(viewTag) as? ZPopTipView {
             view.removeFromSuperview()
         }
     }
     
-    open class func show(_ text: String, onView: UIView, inView: UIView, delegate: ZPopTipViewDelegate?, direction: ZPopTipViewPointDirection?) {
-
+    public class func show(text: String, onView: UIView, inView: UIView, delegate: ZPopTipViewDelegate?, direction: ZPopTipViewPointDirection?) {
+        
         if let view = inView.viewWithTag(viewTag) as? ZPopTipView {
             view.removeFromSuperview()
         }
         
         let textMaxWidth = inView.bounds.width - 2 * padding - textInsets.left - textInsets.right
         let textMaxHeight = onView.bounds.height - textInsets.top - textInsets.bottom - pointHeight
-        let textBounds = NSString(string: text).boundingRect(with: CGSize(width: textMaxWidth, height: textMaxHeight), options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: font], context: nil)
+        let textBounds = NSString(string: text).boundingRectWithSize(CGSize(width: textMaxWidth, height: textMaxHeight), options: .UsesLineFragmentOrigin, attributes: [NSFontAttributeName: font], context: nil)
         let viewBounds = CGRect(x: 0, y: 0, width: textBounds.width, height: textBounds.height)
         let viewSize = CGSize(width: ceil(textBounds.size.width + textInsets.left + textInsets.right), height: ceil(textBounds.size.height + textInsets.top + textInsets.bottom + pointHeight))
-
+        
         var pointDirection: ZPopTipViewPointDirection {
-            if let direction = direction, direction != .any {
+            if let direction = direction where direction != .Any {
                 return direction
             }else {
-                let pointY = onView.convert(CGPoint(x: onView.bounds.size.width / 2, y: 0), to: inView).y
+                let pointY = onView.convertPoint(CGPoint(x: onView.bounds.size.width / 2, y: 0), toView: inView).y
                 if pointY > viewSize.height + padding {
-                    return .up
+                    return .Up
                 }else {
-                    return .down
+                    return .Down
                 }
             }
         }
         
         var point: CGPoint {
-
-            if .up == pointDirection {
-                return onView.convert(CGPoint(x: onView.bounds.size.width / 2, y: 0), to: inView)
+            
+            if .Up == pointDirection {
+                return onView.convertPoint(CGPoint(x: onView.bounds.size.width / 2, y: 0), toView: inView)
             }else {
-                return onView.convert(CGPoint(x: onView.bounds.size.width / 2, y: onView.bounds.size.height), to: inView)
+                return onView.convertPoint(CGPoint(x: onView.bounds.size.width / 2, y: onView.bounds.size.height), toView: inView)
             }
         }
-
+        
         var viewFrame: CGRect {
             let halfInViewWidth = inView.bounds.width / 2
             
             var y: CGFloat {
-                if .up == pointDirection {
+                if .Up == pointDirection {
                     return point.y - viewSize.height
                 }else {
                     return point.y
@@ -108,24 +108,24 @@ open class ZPopTipView: UIButton {
         view.point = point
         view.delegate = delegate
         view.direction = pointDirection
-        view.addTarget(view, action: #selector(ZPopTipView.tapSelf(_:)), for: .touchUpInside)
-
+        view.addTarget(view, action: #selector(ZPopTipView.tapSelf(_:)), forControlEvents: .TouchUpInside)
+        
         var labelViewFrame: CGRect {
-            if .up == pointDirection {
+            if .Up == pointDirection {
                 return CGRect(x: 0, y: 0, width: viewSize.width, height: viewSize.height - pointHeight)
             }else {
                 return CGRect(x: 0, y: pointHeight, width: viewSize.width, height: viewSize.height - pointHeight)
             }
         }
-
+        
         let label = UILabel(frame: CGRect(origin: CGPoint(x: textInsets.left, y: textInsets.top), size: textBounds.size))
         label.font = font
         label.text = text
         label.numberOfLines = 0
-        label.textColor = UIColor.white
-
+        label.textColor = UIColor.whiteColor()
+        
         var labelView = UIView(frame: labelViewFrame)
-        labelView.isUserInteractionEnabled = false
+        labelView.userInteractionEnabled = false
         labelView.backgroundColor = backgroundColor
         labelView.layer.cornerRadius = 8
         labelView.addSubview(label)
@@ -134,14 +134,14 @@ open class ZPopTipView: UIButton {
             let imageView = UIImageView(frame: CGRect.zero)
             let imageWidth: CGFloat = 12.0
             let imageSize = CGSize(width: imageWidth, height: pointHeight)
-
-            if .up == pointDirection {
-                if let image = UIImage(named: "up_indicator", in: Bundle(for: ZPopTipView.self), compatibleWith: nil) {
+            
+            if .Up == pointDirection {
+                if let image = UIImage(named: "up_indicator", inBundle: NSBundle(forClass: ZPopTipView.self), compatibleWithTraitCollection: nil) {
                     imageView.image = image
                 }
                 imageView.frame = CGRect(origin: CGPoint(x: point.x - view.frame.origin.x - imageWidth / 2, y: labelViewFrame.height), size: imageSize)
             }else {
-                if let image = UIImage(named: "down_indicator", in: Bundle(for: ZPopTipView.self), compatibleWith: nil) {
+                if let image = UIImage(named: "down_indicator", inBundle: NSBundle(forClass: ZPopTipView.self), compatibleWithTraitCollection: nil) {
                     imageView.image = image
                 }
                 imageView.frame = CGRect(origin: CGPoint(x: point.x - view.frame.origin.x - imageWidth / 2, y: 0), size: imageSize)
@@ -158,20 +158,20 @@ open class ZPopTipView: UIButton {
         super.init(frame: frame)
         self.beginAnimation()
     }
-
+    
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.beginAnimation()
     }
     
-    fileprivate func beginAnimation() {
+    private func beginAnimation() {
         self.alpha = 0
-        UIView.animate(withDuration: 0.45, animations: {
+        UIView.animateWithDuration(0.45) {
             self.alpha = 1.0
-        }) 
+        }
     }
     
-    func tapSelf(_ sender: UIButton) {
+    func tapSelf(sender: UIButton) {
         delegate?.zPopTipViewDismissAfterTap()
         removeFromSuperview()
     }

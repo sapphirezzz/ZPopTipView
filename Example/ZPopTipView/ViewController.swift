@@ -23,12 +23,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func clickButton(_ sender: UIButton) {
-        sender.isSelected = !sender.isSelected
-        
-        if sender.isSelected {
+    @IBAction func clickButton(sender: UIButton) {
+        sender.selected = !sender.selected
 
-            ZPopTipView.show("Hello World! Lalalalala!", onView: leftInsideView, inView: containerView, delegate: self, direction: .any)
+        if sender.selected {
+
+            ZPopTipView.show("Hello World! Lalalalala!", onView: leftInsideView, inView: containerView, delegate: self, direction: .Any)
 
 //            ZPopTipView.show("Hello World! Lalalalala!", onView: insideView, inView: containerView, delegate: self, direction: .Down)
             
@@ -42,6 +42,6 @@ class ViewController: UIViewController {
 extension ViewController: ZPopTipViewDelegate {
 
     func zPopTipViewDismissAfterTap() {
-        button.isSelected = !button.isSelected
+        button.selected = !button.selected
     }
 }

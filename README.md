@@ -28,7 +28,7 @@ pod "ZPopTipView", '0.1.2'
 
 ## Author
 
-sapphirezzz, zhengzuanzhe@gmail.com
+Zack Zheng, zhengzuanzhe@gmail.com
 
 ## License
 
