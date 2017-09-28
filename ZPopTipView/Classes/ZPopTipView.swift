@@ -45,7 +45,7 @@ open class ZPopTipView: UIButton {
         
         let textMaxWidth = inView.bounds.width - 2 * padding - textInsets.left - textInsets.right
         let textMaxHeight = onView.bounds.height - textInsets.top - textInsets.bottom - pointHeight
-        let textBounds = NSString(string: text).boundingRect(with: CGSize(width: textMaxWidth, height: textMaxHeight), options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: font], context: nil)
+        let textBounds = NSString(string: text).boundingRect(with: CGSize(width: textMaxWidth, height: textMaxHeight), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font: font], context: nil)
         let viewBounds = CGRect(x: 0, y: 0, width: textBounds.width, height: textBounds.height)
         let viewSize = CGSize(width: ceil(textBounds.size.width + textInsets.left + textInsets.right), height: ceil(textBounds.size.height + textInsets.top + textInsets.bottom + pointHeight))
 
@@ -171,7 +171,7 @@ open class ZPopTipView: UIButton {
         }) 
     }
     
-    func tapSelf(_ sender: UIButton) {
+    @objc func tapSelf(_ sender: UIButton) {
         delegate?.zPopTipViewDismissAfterTap()
         removeFromSuperview()
     }

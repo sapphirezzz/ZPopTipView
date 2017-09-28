@@ -30,9 +30,9 @@ class ViewController: UIViewController {
 
             ZPopTipView.show("Hello World! Lalalalala!", onView: leftInsideView, inView: containerView, delegate: self, direction: .any)
 
-//            ZPopTipView.show("Hello World! Lalalalala!", onView: insideView, inView: containerView, delegate: self, direction: .Down)
+//            ZPopTipView.show("Hello World! Lalalalala!", onView: insideView, inView: containerView, delegate: self, direction: .down)
             
-//            ZPopTipView.show("Hello World!", onView: rightInsideView, inView: containerView, delegate: self, direction: .Up)
+//            ZPopTipView.show("Hello World!", onView: rightInsideView, inView: containerView, delegate: self, direction: .up)
         }else {
             ZPopTipView.remove(view)
         }
