@@ -1,9 +1,9 @@
 {
   "name": "ZPopTipView",
-  "version": "0.1.0",
+  "version": "0.3.1",
   "summary": "A short description of ZPopTipView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ZPopTipView",
+  "homepage": "https://github.com/sapphirezzz/ZPopTipView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "sapphirezzz": "zhengzuanzhe@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ZPopTipView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/sapphirezzz/ZPopTipView.git",
+    "tag": "0.3.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,5 +21,6 @@
   "source_files": "ZPopTipView/Classes/**/*",
   "resources": [
     "ZPopTipView/Assets/Images.xcassets"
-  ]
+  ],
+  "frameworks": "UIKit"
 }
