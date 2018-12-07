@@ -21,7 +21,7 @@ public enum ZPopTipViewPointDirection {
 open class ZPopTipView: UIButton {
     
     static let padding: CGFloat = 10.0
-    static let textInsets: UIEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10)
+    static let textInsets: UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
     static let pointHeight: CGFloat = 6
     static let viewTag: Int = 12321
     static let backgroundColor = UIColor(red: 0, green: 176.0 / 255, blue: 1.0, alpha: 1.0)
@@ -45,7 +45,7 @@ open class ZPopTipView: UIButton {
         
         let textMaxWidth = inView.bounds.width - 2 * padding - textInsets.left - textInsets.right
         let textMaxHeight = onView.bounds.height - textInsets.top - textInsets.bottom - pointHeight
-        let textBounds = NSString(string: text).boundingRect(with: CGSize(width: textMaxWidth, height: textMaxHeight), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font: font], context: nil)
+        let textBounds = NSString(string: text).boundingRect(with: CGSize(width: textMaxWidth, height: textMaxHeight), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: font], context: nil)
         let viewBounds = CGRect(x: 0, y: 0, width: textBounds.width, height: textBounds.height)
         let viewSize = CGSize(width: ceil(textBounds.size.width + textInsets.left + textInsets.right), height: ceil(textBounds.size.height + textInsets.top + textInsets.bottom + pointHeight))
 

@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64BAD1B59B2F6F4BAB0585E5E835B0FA /* ZPopTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F78747129CFE988D1455D8CD11E1F234 /* ZPopTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A945A64C971B8FCFFE8C5D88EFACE2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		7CA164B0A39CECE5F57115F91A0766D1 /* ZPopTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8C1426469BDDEFE00102ACB35F069 /* ZPopTipView-dummy.m */; };
-		AB4ED63F1C7CB752893AFBC6FBDA026F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29D1331DDF1A76DCD2B2E98B41B937E /* Images.xcassets */; };
-		AFF91CF2596378DAD95A78D301AA3A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		C0F8DFEAF8CFD4639F5F504D13051DB0 /* Pods-ZPopTipView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF649B53242F5E86BA5B948B04B19E4 /* Pods-ZPopTipView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C315B20A1E2E45167B95E6ED153187AF /* Pods-ZPopTipView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 179A474C9F0509DBD2C08066FA6EBB08 /* Pods-ZPopTipView_Example-dummy.m */; };
-		E5E17F52276AD8A73445892A447C7FBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		F80DBB66FDCECEA431B120329979D74A /* ZPopTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1674534C3788233776E8519F4F182D7C /* ZPopTipView.swift */; };
+		259580B641353D0AE3BB152E06474661 /* Pods-ZPopTipView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 179A474C9F0509DBD2C08066FA6EBB08 /* Pods-ZPopTipView_Example-dummy.m */; };
+		41FB4F5500E1FDADA4716904B474BF4D /* ZPopTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8C1426469BDDEFE00102ACB35F069 /* ZPopTipView-dummy.m */; };
+		46F9FC9A4F2AE8956AE58207541934BA /* ZPopTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F78747129CFE988D1455D8CD11E1F234 /* ZPopTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		470308A7F77EA96B3206B71A38260085 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29D1331DDF1A76DCD2B2E98B41B937E /* Images.xcassets */; };
+		64CA87D884B354E586C9C5C3F3038D80 /* ZPopTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1674534C3788233776E8519F4F182D7C /* ZPopTipView.swift */; };
+		670168E21C8F76651DEA123AFD600CDE /* Pods-ZPopTipView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF649B53242F5E86BA5B948B04B19E4 /* Pods-ZPopTipView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7261F6AFCEB2A4B3BB90EDD5B42EED11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		8137FE370295B1084E86AB67EC058C91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		F6DB70B40814B4337A4253CDAFB11952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AFE33F94B5C87B1D776262891EE551EE /* PBXContainerItemProxy */ = {
+		5E5CB3BB14C2BBADA16EABF0FA25FD28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 25F59E8208E70AF2684F4E9F5638974F;
+			remoteGlobalIDString = 56193DFA68651CA65087FFFBD972A1FF;
 			remoteInfo = ZPopTipView;
 		};
 /* End PBXContainerItemProxy section */
@@ -39,8 +39,10 @@
 		1CDC3A09DB930AD0901F382036237D8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2AB4DF1085302E5A19B95DF0EACE7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2DE8C1426469BDDEFE00102ACB35F069 /* ZPopTipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPopTipView-dummy.m"; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4955E7F1ADD6008FD225E8D3681DF864 /* ZPopTipView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPopTipView.xcconfig; sourceTree = "<group>"; };
 		5E836DF5049069CC062DB75F21F36778 /* Pods-ZPopTipView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPopTipView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7A0B6BA0BE2BDD5689071977D256F62C /* Pods-ZPopTipView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPopTipView_Example-resources.sh"; sourceTree = "<group>"; };
 		7B6693163BD89A2D9B6F5EFA7DDA18C2 /* ZPopTipView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPopTipView.framework; path = ZPopTipView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF649B53242F5E86BA5B948B04B19E4 /* Pods-ZPopTipView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPopTipView_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -48,30 +50,28 @@
 		944A1A721CC43D556AF06EFBA560A6CD /* Pods-ZPopTipView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPopTipView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9B2F822E8B2A46245ABC13CEDA2FF29B /* ZPopTipView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZPopTipView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF7DD8F5F73C821341EC09694FCEAF0 /* ZPopTipView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPopTipView-prefix.pch"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B81640FEB447363E9E06271D7F3888D2 /* Pods_ZPopTipView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPopTipView_Example.framework; path = "Pods-ZPopTipView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FE226ACC2BF0E628CDF34940621544 /* Pods-ZPopTipView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPopTipView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E29D1331DDF1A76DCD2B2E98B41B937E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ZPopTipView/Assets/Images.xcassets; sourceTree = "<group>"; };
 		F78747129CFE988D1455D8CD11E1F234 /* ZPopTipView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPopTipView-umbrella.h"; sourceTree = "<group>"; };
 		FBD5E51AA93A26AFA83E05A4ED214205 /* ZPopTipView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPopTipView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5979D81C8F8C75EBB504CDA185B499B1 /* Frameworks */ = {
+		2831080DDF859DA68360C13293243C2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF91CF2596378DAD95A78D301AA3A8E /* Foundation.framework in Frameworks */,
+				F6DB70B40814B4337A4253CDAFB11952 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B85A760F6D9CB03DE46CA45D34522867 /* Frameworks */ = {
+		F1171D714A052C995262AF1D80F98DAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A945A64C971B8FCFFE8C5D88EFACE2F /* Foundation.framework in Frameworks */,
-				E5E17F52276AD8A73445892A447C7FBF /* UIKit.framework in Frameworks */,
+				7261F6AFCEB2A4B3BB90EDD5B42EED11 /* Foundation.framework in Frameworks */,
+				8137FE370295B1084E86AB67EC058C91 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +90,15 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ZPopTipView";
+			sourceTree = "<group>";
+		};
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		2ED9DFA16116C31A471647A2ABCC2C1E /* Products */ = {
@@ -112,18 +121,9 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		46F225FAB68870E5CB9644A5FA3AFAB1 /* Resources */ = {
@@ -196,33 +196,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		35EF8C90DB198516E8462AB35F04C29C /* Headers */ = {
+		50F697A9E928093B65F1E27225128CD9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64BAD1B59B2F6F4BAB0585E5E835B0FA /* ZPopTipView-umbrella.h in Headers */,
+				670168E21C8F76651DEA123AFD600CDE /* Pods-ZPopTipView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3874AE91F77F3B10E0BDFA295E1916CA /* Headers */ = {
+		A22043C514F9855F18FBF5AA1419A059 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0F8DFEAF8CFD4639F5F504D13051DB0 /* Pods-ZPopTipView_Example-umbrella.h in Headers */,
+				46F9FC9A4F2AE8956AE58207541934BA /* ZPopTipView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		25F59E8208E70AF2684F4E9F5638974F /* ZPopTipView */ = {
+		56193DFA68651CA65087FFFBD972A1FF /* ZPopTipView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29D6EF14DCBB096408AC8492D39318AD /* Build configuration list for PBXNativeTarget "ZPopTipView" */;
+			buildConfigurationList = B20A3F463792818EF8DAE9DBB87D0295 /* Build configuration list for PBXNativeTarget "ZPopTipView" */;
 			buildPhases = (
-				20A323EC96A6BF2DEDA8BF4FCD3A2698 /* Sources */,
-				B85A760F6D9CB03DE46CA45D34522867 /* Frameworks */,
-				452A7C0429DBE54FA76D34250594B685 /* Resources */,
-				35EF8C90DB198516E8462AB35F04C29C /* Headers */,
+				A22043C514F9855F18FBF5AA1419A059 /* Headers */,
+				93963368E93F1D1FF0725B700CA898D5 /* Sources */,
+				F1171D714A052C995262AF1D80F98DAE /* Frameworks */,
+				739CE0A3F62C01AD9961D5037FD889C4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -233,18 +233,19 @@
 			productReference = 7B6693163BD89A2D9B6F5EFA7DDA18C2 /* ZPopTipView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9298603285942AA35321AB7655531DBE /* Pods-ZPopTipView_Example */ = {
+		7314891F12DC2DF44FD79E210EB62D9E /* Pods-ZPopTipView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 786E90F2C1713C86BA5FF621C525A3D6 /* Build configuration list for PBXNativeTarget "Pods-ZPopTipView_Example" */;
+			buildConfigurationList = 93EADDCC65722FE150AD4A4E0FCDC57C /* Build configuration list for PBXNativeTarget "Pods-ZPopTipView_Example" */;
 			buildPhases = (
-				EE53761D22310C08E18965B38C1ACDCD /* Sources */,
-				5979D81C8F8C75EBB504CDA185B499B1 /* Frameworks */,
-				3874AE91F77F3B10E0BDFA295E1916CA /* Headers */,
+				50F697A9E928093B65F1E27225128CD9 /* Headers */,
+				BE36E7A27B2BA02D1757D4682823E265 /* Sources */,
+				2831080DDF859DA68360C13293243C2A /* Frameworks */,
+				DE5D577ADF8299154D4BEF842526C2D1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				10FE7DA976BA12F1D6CCD98CD7D637F6 /* PBXTargetDependency */,
+				D9F928BF6D4A335C1597A5E3B3E072C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZPopTipView_Example";
 			productName = "Pods-ZPopTipView_Example";
@@ -272,88 +273,61 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9298603285942AA35321AB7655531DBE /* Pods-ZPopTipView_Example */,
-				25F59E8208E70AF2684F4E9F5638974F /* ZPopTipView */,
+				7314891F12DC2DF44FD79E210EB62D9E /* Pods-ZPopTipView_Example */,
+				56193DFA68651CA65087FFFBD972A1FF /* ZPopTipView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		452A7C0429DBE54FA76D34250594B685 /* Resources */ = {
+		739CE0A3F62C01AD9961D5037FD889C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB4ED63F1C7CB752893AFBC6FBDA026F /* Images.xcassets in Resources */,
+				470308A7F77EA96B3206B71A38260085 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5D577ADF8299154D4BEF842526C2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20A323EC96A6BF2DEDA8BF4FCD3A2698 /* Sources */ = {
+		93963368E93F1D1FF0725B700CA898D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA164B0A39CECE5F57115F91A0766D1 /* ZPopTipView-dummy.m in Sources */,
-				F80DBB66FDCECEA431B120329979D74A /* ZPopTipView.swift in Sources */,
+				41FB4F5500E1FDADA4716904B474BF4D /* ZPopTipView-dummy.m in Sources */,
+				64CA87D884B354E586C9C5C3F3038D80 /* ZPopTipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE53761D22310C08E18965B38C1ACDCD /* Sources */ = {
+		BE36E7A27B2BA02D1757D4682823E265 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C315B20A1E2E45167B95E6ED153187AF /* Pods-ZPopTipView_Example-dummy.m in Sources */,
+				259580B641353D0AE3BB152E06474661 /* Pods-ZPopTipView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		10FE7DA976BA12F1D6CCD98CD7D637F6 /* PBXTargetDependency */ = {
+		D9F928BF6D4A335C1597A5E3B3E072C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZPopTipView;
-			target = 25F59E8208E70AF2684F4E9F5638974F /* ZPopTipView */;
-			targetProxy = AFE33F94B5C87B1D776262891EE551EE /* PBXContainerItemProxy */;
+			target = 56193DFA68651CA65087FFFBD972A1FF /* ZPopTipView */;
+			targetProxy = 5E5CB3BB14C2BBADA16EABF0FA25FD28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		64CC7792B9F262CBA570DE5941E6CA4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 007C2154B0F9CAC5D26B24EF0C589647 /* Pods-ZPopTipView_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPopTipView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZPopTipView_Example/Pods-ZPopTipView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ZPopTipView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F3FBEFB663F924641BE443AEC2D8E01 /* Debug */ = {
+		60936B9FDE54BD827321784F214C3F35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4955E7F1ADD6008FD225E8D3681DF864 /* ZPopTipView.xcconfig */;
 			buildSettings = {
@@ -372,19 +346,19 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ZPopTipView/ZPopTipView.modulemap";
+				PRODUCT_MODULE_NAME = ZPopTipView;
 				PRODUCT_NAME = ZPopTipView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,6 +390,103 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9135B5A34563945E7C6349FA50067EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007C2154B0F9CAC5D26B24EF0C589647 /* Pods-ZPopTipView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPopTipView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPopTipView_Example/Pods-ZPopTipView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -437,20 +508,23 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D1AA41579C04B1746C5B929C986FD26D /* Debug */ = {
+		CA29456DE7AAE3B19C8D1F04B9DD452F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 944A1A721CC43D556AF06EFBA560A6CD /* Pods-ZPopTipView_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -470,76 +544,16 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ZPopTipView_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		F7B447BF5C644A82708DF3E99C64C1B4 /* Release */ = {
+		D280814CBEA213F1695ADB8D2569711A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4955E7F1ADD6008FD225E8D3681DF864 /* ZPopTipView.xcconfig */;
 			buildSettings = {
@@ -558,12 +572,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ZPopTipView/ZPopTipView.modulemap";
+				PRODUCT_MODULE_NAME = ZPopTipView;
 				PRODUCT_NAME = ZPopTipView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -574,29 +588,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29D6EF14DCBB096408AC8492D39318AD /* Build configuration list for PBXNativeTarget "ZPopTipView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F3FBEFB663F924641BE443AEC2D8E01 /* Debug */,
-				F7B447BF5C644A82708DF3E99C64C1B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
-				DA03565BE765DB55C6448FB363A44481 /* Release */,
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		786E90F2C1713C86BA5FF621C525A3D6 /* Build configuration list for PBXNativeTarget "Pods-ZPopTipView_Example" */ = {
+		93EADDCC65722FE150AD4A4E0FCDC57C /* Build configuration list for PBXNativeTarget "Pods-ZPopTipView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1AA41579C04B1746C5B929C986FD26D /* Debug */,
-				64CC7792B9F262CBA570DE5941E6CA4E /* Release */,
+				CA29456DE7AAE3B19C8D1F04B9DD452F /* Debug */,
+				9135B5A34563945E7C6349FA50067EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20A3F463792818EF8DAE9DBB87D0295 /* Build configuration list for PBXNativeTarget "ZPopTipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60936B9FDE54BD827321784F214C3F35 /* Debug */,
+				D280814CBEA213F1695ADB8D2569711A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

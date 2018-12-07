@@ -1,6 +1,6 @@
 {
   "name": "ZPopTipView",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "summary": "A short description of ZPopTipView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sapphirezzz/ZPopTipView",
@@ -13,8 +13,9 @@
   },
   "source": {
     "git": "https://github.com/sapphirezzz/ZPopTipView.git",
-    "tag": "0.3.1"
+    "tag": "0.4.0"
   },
+  "swift_version": "4.2",
   "platforms": {
     "ios": "8.0"
   },

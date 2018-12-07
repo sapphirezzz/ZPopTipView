@@ -1,16 +1,16 @@
 PODS:
-  - ZPopTipView (0.3.1)
+  - ZPopTipView (0.4.0)
 
 DEPENDENCIES:
   - ZPopTipView (from `../`)
 
 EXTERNAL SOURCES:
   ZPopTipView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ZPopTipView: f2cda865f2b2c88a07b34085f2f73a29621b0081
+  ZPopTipView: 038391732e24fe82b228c9c83d243e2b388dd9cc
 
 PODFILE CHECKSUM: d25f14ab3b46a5b4adb255284063794bd7e2ba18
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
