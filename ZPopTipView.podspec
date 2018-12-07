@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZPopTipView'
-  s.version          = '0.3.1'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of ZPopTipView.'
 
   s.description      = <<-DESC
@@ -20,7 +20,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sapphirezzz' => 'zhengzuanzhe@gmail.com' }
   s.source           = { :git => 'https://github.com/sapphirezzz/ZPopTipView.git', :tag => s.version.to_s }
-
+  
+  s.swift_version = '4.2'
   s.ios.deployment_target = '8.0'
   s.source_files = 'ZPopTipView/Classes/**/*'
   s.resources = ['ZPopTipView/Assets/Images.xcassets']
