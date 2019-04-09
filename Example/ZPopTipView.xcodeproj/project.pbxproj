@@ -155,6 +155,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -188,7 +189,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZPopTipView_Example/Pods-ZPopTipView_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ZPopTipView_Example/Pods-ZPopTipView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ZPopTipView/ZPopTipView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -197,7 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPopTipView_Example/Pods-ZPopTipView_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZPopTipView_Example/Pods-ZPopTipView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		687875926CF7F9C719337EB4 /* [CP] Check Pods Manifest.lock */ = {
@@ -353,7 +354,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -369,7 +370,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
