@@ -24,7 +24,7 @@ open class ZPopTipView: UIButton {
     static let textInsets: UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
     static let pointHeight: CGFloat = 6
     static let viewTag: Int = 12321
-    static let backgroundColor = UIColor(red: 0, green: 176.0 / 255, blue: 1.0, alpha: 1.0)
+    static let backgroundColor = UIColor(red: 1.0, green: 86.0 / 255, blue: 119.0 / 255, alpha: 1.0)
     static let font: UIFont = UIFont.systemFont(ofSize: 14.0)
     
     var point: CGPoint?
