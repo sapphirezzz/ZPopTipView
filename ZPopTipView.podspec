@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZPopTipView'
-  s.version          = '1.4.1'
+  s.version          = '1.4.2'
   s.summary          = 'A short description of ZPopTipView.'
 
   s.description      = <<-DESC
